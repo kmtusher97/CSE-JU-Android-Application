@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CSE JU</string>
+    <string name="login_page_logo">Login Page Logo</string>
+    <string name="user_icon">User Icon</string>
+    <string name="sign_out_menu">Sign Out</string>
+    <string name="edit_syllabus_menu">Edit Syllabus</string>
+    <string name="add_user_menu">Add Student</string>
+    <string name="todo">TODO</string>
+    <string name="student_email">Email</string>
+    <string name="student_name">Name</string>
+    <string name="student_roll">Roll</string>
+    <string name="add_student_button">Add Student</string>
+    <string name="forget_password_button">Forget Password</string>
+    <string name="user_email_input">User Email</string>
+    <string name="password_input">Password</string>
+    <string name="login_button">Login</string>
+
+    <string-array name="studnet_session_list">
+        <item>2013-14</item>
+        <item>2014-15</item>
+        <item>2015-16</item>
+        <item>2016-17</item>
+        <item>2017-18</item>
+        <item>2018-19</item>
+        <item>2019-20</item>
+        <item>2020-21</item>
+        <item>2021-22</item>
+        <item>2022-23</item>
+    </string-array>
+</resources>

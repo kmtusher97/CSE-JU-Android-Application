@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "89700733309",
+    "firebase_url": "https://noticebordcseju.firebaseio.com",
+    "project_id": "noticebordcseju",
+    "storage_bucket": "noticebordcseju.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89700733309:android:f6a8cf7809ff3ba2a33c14",
+        "android_client_info": {
+          "package_name": "com.example.noticebordcseju"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89700733309-i0kbk2et7k4e60l5eejl4p8063qkfv88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.noticebordcseju",
+            "certificate_hash": "05d55fe07ea39d0259f33f29e2b7829416620403"
+          }
+        },
+        {
+          "client_id": "89700733309-c2n171b4s9i26ggcg6jmqsd7k42pefj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLz_YR5sodzkphbeSkoHsbve5iKCaaYi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89700733309-c2n171b4s9i26ggcg6jmqsd7k42pefj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
