@@ -42,6 +42,8 @@ public class AddStudentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_student);
 
+        setTitle("Add Student");
+
         /**fire base initialization*/
         firebaseAuth = FirebaseAuth.getInstance();
 

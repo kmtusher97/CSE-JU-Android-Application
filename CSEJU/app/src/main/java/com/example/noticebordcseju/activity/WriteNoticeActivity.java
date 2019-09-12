@@ -26,6 +26,8 @@ public class WriteNoticeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_write_notice);
 
+        setTitle("Create Notice");
+
         notice = new Notice();
 
         noticeServices = new NoticeServices();
