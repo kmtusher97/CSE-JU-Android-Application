@@ -1,4 +1,4 @@
-package com.example.noticebordcseju;
+package com.example.noticebordcseju.activity;
 
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.example.noticebordcseju.R;
 import com.example.noticebordcseju.model.Student;
 import com.example.noticebordcseju.service.StudentServices;
 import com.google.android.gms.tasks.OnCompleteListener;

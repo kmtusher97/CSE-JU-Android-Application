@@ -1,4 +1,4 @@
-package com.example.noticebordcseju;
+package com.example.noticebordcseju.activity;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.noticebordcseju.R;
+import com.example.noticebordcseju.activity.AdminActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -133,7 +135,6 @@ public class LoginActivity extends AppCompatActivity {
             editTextPassword.setError("Empty Password");
             return false;
         }
-        System.out.println("okkkkkkkkkkkk");
         return true;
     }
 
@@ -146,7 +147,8 @@ public class LoginActivity extends AppCompatActivity {
             Intent intentAdmin = new Intent(getApplicationContext(), AdminActivity.class);
             startActivity(intentAdmin);
         } else {
-            //
+            Intent intentStudent = new Intent(getApplicationContext(), StudentActivity.class);
+            startActivity(intentStudent);
         }
     }
 

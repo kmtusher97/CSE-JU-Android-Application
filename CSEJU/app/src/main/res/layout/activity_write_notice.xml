@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.WriteNoticeActivity">
+
+    <TableRow
+        android:layout_margin="5dp">
+
+        <EditText
+            android:id="@+id/notice_title_input"
+            android:layout_width="382dp"
+            android:layout_height="match_parent"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/notice_tittle_input"
+            tools:targetApi="o" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="381dp"
+        android:layout_height="91dp"
+        android:layout_margin="5dp">
+
+
+        <EditText
+            android:id="@+id/notice_description_input"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:autoText="false"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine|textPersonName"
+            android:text="@string/notice_description_input"
+            tools:targetApi="o" />
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="5dp">
+
+
+        <Button
+            android:id="@+id/post_notice_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post" />
+    </TableRow>
+</TableLayout>

@@ -14,6 +14,9 @@
     <string name="user_email_input">User Email</string>
     <string name="password_input">Password</string>
     <string name="login_button">Login</string>
+    <string name="write_notice_button">Write Notice</string>
+    <string name="notice_tittle_input">Title</string>
+    <string name="notice_description_input">Description</string>
 
     <string-array name="studnet_session_list">
         <item>2013-14</item>
